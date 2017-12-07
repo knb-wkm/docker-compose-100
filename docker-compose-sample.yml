@@ -1,0 +1,15 @@
+---
+version: '2'
+services:
+  taro:
+    container_name: taro
+    image: busybox
+    command: sleep 1h
+  hanako:
+    container_name: hanako
+    image: busybox
+    command: sleep 1h
+  jiro:
+    container_name: jiro
+    image: busybox
+    command: sleep 1h
